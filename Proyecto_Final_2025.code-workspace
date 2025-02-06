@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "proyecto_Chris",
+			"path": "../../../Desktop/Repositorio2025/proyecto_Chris"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Proyecto_Final_2025"
+	}
+}
