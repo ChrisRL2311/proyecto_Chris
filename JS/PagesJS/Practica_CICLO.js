@@ -56,7 +56,7 @@ function Filtrar() {
     console.log(valor)
 }
 
-
+// ejercicio 1
 function buscarDesdeInput() {
   let input1 = document.getElementById('buscarNombre').value.trim();  //Metio el valor pepe
   let resultado = document.getElementById('resultadoBusqueda');
@@ -75,7 +75,7 @@ function buscarDesdeInput() {
   }
 }
 
-
+//ejercicio 2
 function primeraPersonaActiva() {
     let resultado = document.getElementById('resultadoActivo');//inner 
 
@@ -93,7 +93,7 @@ function primeraPersonaActiva() {
 
 }
 
-
+//ejercicio 6
 function personasActivas() {
     let resultado = document.getElementById('listaActivos');
 
@@ -110,3 +110,21 @@ function personasActivas() {
 
     });
 }
+
+// ejercicio 3
+function primeraMayorDeEdad() {
+  let resultado = document.getElementById('resultadoMayor');
+
+  let busqueda = personas.find(x => x.edad > 18);
+
+  if (busqueda) {
+      resultado.innerHTML = `Primera persona mayor de 18: ${busqueda.nombre} (${busqueda.edad}`;
+
+  } else {
+    resultado.innerHTML = `No se encontro ninguna poersona mayor a los 18`;
+    
+  }
+
+}
+
+
