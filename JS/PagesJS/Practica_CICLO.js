@@ -127,4 +127,15 @@ function primeraMayorDeEdad() {
 
 }
 
+// ejercicio 4 
+function mostrarTodasLasPersonas() {
 
+  let resultado = document.getElementById('listaPersonas');
+
+  resultado.innerHTML = ""; 
+
+  personas.forEach(element => {
+
+      resultado.innerHTML += `<li>Nombre: ${element.nombre}, Edad: ${element.edad}</li>`;
+  });
+}
