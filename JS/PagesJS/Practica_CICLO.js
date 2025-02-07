@@ -139,3 +139,25 @@ function mostrarTodasLasPersonas() {
       resultado.innerHTML += `<li>Nombre: ${element.nombre}, Edad: ${element.edad}</li>`;
   });
 }
+
+
+// ejercicio 5
+
+function mayoresDeEdad() {
+  let resultado = document.getElementById('listaMayores');
+  resultado.innerHTML = "";
+  personas.forEach(element => {
+
+      if (element.edad > 18) {
+
+          resultado.innerHTML += `<li>Nombre: ${element.nombre}, Edad: ${element.edad}</li>`;
+      }
+  });
+}
+
+
+
+  
+
+
+
