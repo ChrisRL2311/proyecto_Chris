@@ -149,7 +149,6 @@ function mayoresDeEdad() {
   personas.forEach(element => {
 
       if (element.edad > 18) {
-
           resultado.innerHTML += `<li>Nombre: ${element.nombre}, Edad: ${element.edad}</li>`;
       }
   });
