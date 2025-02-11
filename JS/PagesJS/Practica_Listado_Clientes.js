@@ -16,7 +16,7 @@ let contenedor = document.getElementById('tbody');
 DatosFiltrados = Datos_Locales
 
 document.addEventListener('DOMContentLoaded',() => {
-
+    Mostrar_CampoTabla()
 });
 
 function Mostrar_CampoTabla() {}
@@ -29,9 +29,9 @@ function Mostrar_CampoTabla() {}
 
         html += ` 
         <tr>
+            <td> ${element.id} </td>
             <td> ${element.name} </td>
             <td> ${element.email} </td>
-            <td> ${element.id} </td>
          </tr>
         
         `
