@@ -23,7 +23,7 @@ function Mostrar_Footer() {
                 <div class="row">
                     <!-- Inicio: Contenedor 1  -->
                     <div class="col-md-6 col-sm-6 ">
-                        <img src="Assets/image1.png" class="w-100" alt="">
+                        <img src="Assets/pngegg (1).png" class="w-100" alt="">
                     </div>
                     <!-- Fin: Contenedor 1 -->
 
@@ -33,14 +33,11 @@ function Mostrar_Footer() {
                         <div class="">
                             <h3 class="lead text-center">Página  ${nombrePagina}</h3>
                             <p class="lead mt-5">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, autem nisi sequi
-                                repellat porro tenetur alias praesentium quasi veritatis quo aliquam, nam consequuntur
-                                perferendis ut nobis quae maxime reprehenderit! Quia.
+                                El JDM surgió en la década de 1960, cuando los fabricantes japoneses como Toyota, Nissan, Honda, Mazda y Subaru comenzaron a producir autos deportivos y compactos que se adaptaban a las necesidades del mercado local...
                             </p>
 
 
-                            <a class="btn btn-secondary btn-lg mt-2 d-flex justify-content-center" href="Jumbo action link" role="button">Jumbo
-                                action name</a>
+                            <a class="btn btn-secondary btn-lg mt-2 d-flex justify-content-center" href="Jumbo action link" role="button">MAS INFORMACION</a>
 
 
                         </div>

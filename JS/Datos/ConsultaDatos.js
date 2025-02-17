@@ -18,13 +18,13 @@ export let Datos_LiNav = [
         Nombre: "Calculadora",
         Detalle: "Practica",      
         Url: "/Practica_Calculadora.html",
-        Activo: false
+        Activo: true
     },
     {   Id: 3,
         Nombre: "Listado Clientes", 
         Detalle: "Practica",     
         Url: "/Practica_Listado_Clientes.html",
-        Activo: true
+        Activo: false
     },
     {   Id: 4,
         Nombre: "Tarea Pokemon",   
@@ -72,7 +72,7 @@ export let Datos_LiNav = [
         Nombre: "Practica CICLO",    
         Detalle: "Practica ", 
         Url: "/Practica_CICLO.html",
-        Activo: false
+        Activo: true
     },
 ];
 
